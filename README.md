@@ -1,4 +1,4 @@
-![Tags](https://github.com/lefter/blog/blob/master/img/tags.jpg)
+![Tags](https://raw.githubusercontent.com/lefter/blog/master/img/tags.jpg)
 
 - 更新时间：2019-07-03
 - 难度等级：☆ 为初级，☆☆ 为中级，☆☆☆ 为高级。
