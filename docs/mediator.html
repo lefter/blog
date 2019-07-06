@@ -12,8 +12,8 @@
   <div id='result'>0</div>
   <script>
 class Scoreboard {
-  constructor(x, y) {
-    this.element = document.getElementById('result');
+  constructor(x) {
+    this.element = document.getElementById(x);
   }
   update(score) {
     let msg = ''
@@ -65,7 +65,7 @@ class Mediator {
   }
 }
 var mediator = new Mediator();
-var scoreboard = new Scoreboard();
+var scoreboard = new Scoreboard('result');
 mediator.setup();
 window.onkeypress = mediator.keypress;
 setTimeout(() => {
